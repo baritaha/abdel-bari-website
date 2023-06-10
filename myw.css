@@ -1,46 +1,65 @@
- body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+/* Top design */
+body {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #007bff;
   padding: 20px;
-  background-color: #ffffff;
+  color: #fff;
 }
 
 header h1 {
-  font-size: 24px;
-  margin: 0;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
-header h2 {
-  font-size: 18px;
-  margin: 5px 0;
-  color: #777;
+/* Hover effects */
+a:hover {
+  color: #ff4500;
 }
 
-h3 {
-  font-size: 18px;
-  margin: 15px 0 10px;
+li:hover {
+  background-color: #f0f0f0;
 }
 
-ul {
+/* Custom colors and backgrounds */
+#contact h3,
+#education h3,
+#courses h3 {
+  color: #ff4500;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Additional styling */
+ul, ol {
   list-style-type: none;
   padding: 0;
-  margin: 0;
 }
 
-li {
-  margin-bottom: 5px;
+ul li, ol li {
+  margin-bottom: 10px;
 }
 
-a {
-  color: #007bff;
-  text-decoration: none;
+h4 {
+  margin-top: 10px;
 }
 
-a:hover {
-  text-decoration: underline;
+h4:last-child {
+  margin-bottom: 0;
 }
-  .profile-pic {
-      width: 180px; /* Adjust the width to your preference */
-      height: auto; /* The height will adjust proportionally */
-      border-radius: 50%; /* Gives a circular shape to the image */
-    }
