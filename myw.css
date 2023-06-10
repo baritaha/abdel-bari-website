@@ -1,0 +1,46 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #777;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+  .profile-pic {
+      width: 180px; /* Adjust the width to your preference */
+      height: auto; /* The height will adjust proportionally */
+      border-radius: 50%; /* Gives a circular shape to the image */
+    }
