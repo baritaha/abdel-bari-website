@@ -39,12 +39,14 @@ section {
 }
 
 .profile-pic {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 50%;
-  
   display: block;
 }
+
 
 /* Additional styling */
 ul, ol {
