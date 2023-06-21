@@ -38,6 +38,12 @@ section {
   margin-bottom: 20px;
 }
 
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .profile-pic {
   width: 20%;
   height: auto;
@@ -45,8 +51,8 @@ section {
   max-height: 20%;
   border-radius: 50%;
   display: block;
-  justify-content: center;
 }
+
 
 
 /* Additional styling */
