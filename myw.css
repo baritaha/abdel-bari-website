@@ -45,6 +45,7 @@ section {
   max-height: 20%;
   border-radius: 50%;
   display: block;
+  justify-content: center;
 }
 
 
