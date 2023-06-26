@@ -31,7 +31,7 @@
 
     if ($username === $desiredUsername && $password === $desiredPassword) {
       // Successful login, redirect to your website
-      header('Location: AboutMe.html');
+      header('Location: index.html');
       exit;
     } else {
       // Invalid login, display an error message
