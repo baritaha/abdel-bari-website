@@ -6,7 +6,7 @@
 </head>
 <body>
   <div class="container">
-    <form action="login.php" method="POST">
+    <form action="check.php" method="POST">
       <h2 style=color:red>Login</h2>
       <label for="username"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="username" required>
