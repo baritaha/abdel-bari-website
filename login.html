@@ -3,10 +3,25 @@
 <head>
   <title>Login Page</title>
   <link rel="stylesheet" type="text/css" href="style2.css">
+   <script>
+        function validateForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            
+            // Perform your validation logic here
+            if (username === "" || password === "") {
+                alert("Please enter a username and password.");
+                return false;
+            }
+            
+            // If the validation passes, you can submit the form
+            return true;
+        }
+    </script>
 </head>
 <body>
   <div class="container">
-    <form action="check.php" method="POST">
+    <form action="index.html" method="POST" onsubmit="return validateForm();">
       <h2>Login</h2>
       <label for="username"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="username" required>
