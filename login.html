@@ -9,7 +9,7 @@
             var password = document.getElementById("password").value;
             
             // Perform your validation logic here
-            if (username === "" || password === "") {
+            if (username !="Admin" && password !="0000") {
                 alert("Please enter a username and password.");
                 return false;
             }
