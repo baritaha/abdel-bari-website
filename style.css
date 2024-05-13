@@ -175,9 +175,10 @@ nav .nav-list li.btn:hover a{
 .button{
     margin-top: 243px;
     padding-bottom: 40px;
+    color:#fff;
 }
-.button p{
-    color: white;
+.button a{
+    color: #007bff;
     letter-spacing: 2px;
     font-size: 15px;
 
